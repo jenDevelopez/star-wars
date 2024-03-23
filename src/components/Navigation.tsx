@@ -17,7 +17,7 @@ const Navigation = () => {
   }
 
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen bg-white dark:bg-gray-900">
       <div className="" id="header">
         <ToogleTheme />
         <div className=" flex justify-center mt-10 relative ">

@@ -36,7 +36,7 @@ const StarshipList = () => {
       <div className="flex flex-col justify-center items-center pb-4">
         {starshipList.map((starship, id) => (
           <Link
-            className="w-2/3 dark:bg-neutral rounded-md shadow-xl my-3 "
+            className="w-2/3  rounded-md shadow-xl my-3 "
             key={id}
             to={`${id + 1}`}
             onClick={() => {
