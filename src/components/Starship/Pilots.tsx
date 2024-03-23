@@ -10,11 +10,11 @@ const Pilots = () => {
   }, []);
 
   return (
-    <div className="w-1/2 h-24 p-3 bg-zinc-900">
+    <div className="w-1/2 h-24 p-3 dark:bg-zinc-900">
       {pilots.length > 0 ? (
         <div className="flex">
           <h1 className="text-xl">PILOTS:</h1>
-          <div className="flex ml-3">
+          <div className="flex ml-3 gap-1">
             {pilots.map((pilot) => (
               <img className="w-12" src={pilot} alt="" />
             ))}

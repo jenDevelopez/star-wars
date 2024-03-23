@@ -7,7 +7,7 @@ import Films from "../components/Starship/Films";
 
 const StarshipDetails = () => {
   return (
-    <div className="bg-zinc-900">
+    <div className="dark:bg-zinc-900">
       <TitleStarsip />
       <ImageStarship />
       <InfoStarship />

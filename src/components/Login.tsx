@@ -59,6 +59,12 @@ export const Login = () => {
           <Link to="/">forgot password</Link>
           <Link to="/register">Register</Link>
         </div>
+
+        <div>
+          <h2>TEST</h2>
+          <h3><span>User:</span>test@test.com</h3>
+          <h3><span>Password:123456</span></h3>
+        </div>
       </form>
     </div>
   </div>
