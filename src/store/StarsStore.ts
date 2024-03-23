@@ -22,12 +22,10 @@ export const useStarsStore = create<StoreProps>((set,get) => ({
   error:null,
   films: [],
   pilots:[],
-  
-  
-  
-  
-  
+  darkMode:false,
 
+  
+  
   setUser: (value) => set({user:value}),
   setEmail: (value) => set({email:value}),
   setPassword: (value) => set({password:value}),
@@ -38,6 +36,7 @@ export const useStarsStore = create<StoreProps>((set,get) => ({
   setStarshipList: (value) => set({starshipList:value}),
   setPage: (value) => set({page:value}),
   setNext:(value) => set({next:value}),
+  setDarkMode:(value) => set({darkMode:value}),
 
 
   loadApiData: async() => {

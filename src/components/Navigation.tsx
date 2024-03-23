@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useStarsStore } from "../store/StarsStore";
+import ToogleTheme from "./ToogleTheme";
 
 const Navigation = () => {
 
@@ -18,9 +19,10 @@ const Navigation = () => {
   return (
     <div className="w-full h-screen">
       <div className="" id="header">
-        <div className=" self-center flex justify-center mt-10 relative ">
+        <ToogleTheme />
+        <div className=" flex justify-center mt-10 relative ">
           <img
-            className="w-1/5 h-auto text-red-500"
+            className="w-1/5 h-auto "
             src="/star-wars.svg"
             alt="logo star wars"
           />

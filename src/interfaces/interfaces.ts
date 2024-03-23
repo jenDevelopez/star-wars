@@ -72,7 +72,8 @@ export interface StoreProps {
   error: string | null
   films:string[]
   pilots: string[]
-  
+  darkMode:boolean
+
   
   setUser: (value: User | UsersType) => void
   setEmail: (value:string) => void
@@ -84,6 +85,7 @@ export interface StoreProps {
   setStarshipList:(value:StarshipDataType[]) => void
   setPage: (value: number) => void
   setNext: (value: string | null) => void
+  setDarkMode:(value:boolean) => void
 
 
 
