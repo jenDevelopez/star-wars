@@ -10,4 +10,5 @@
 - Firebase
 - Zustand
 
-![Mockup de la aplicación](./public/screenshot.jpg)
+![Pagina welcome de la aplicación](./public/welcome_star_wars.png)
+![Pagina de login de la aplicación](./public/login_star_wars.png)
