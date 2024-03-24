@@ -7,11 +7,11 @@ import Films from "../components/Starship/Films";
 
 const StarshipDetails = () => {
   return (
-    <div className="dark:bg-zinc-900">
+    <div className="">
       <TitleStarsip />
       <ImageStarship />
       <InfoStarship />
-      <div className="flex justify-between px-4">
+      <div className="flex justify-center gap-2 ">
         <Pilots />
         <Films />
       </div>

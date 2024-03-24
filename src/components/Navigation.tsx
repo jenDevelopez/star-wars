@@ -17,7 +17,7 @@ const Navigation = () => {
   }
 
   return (
-    <div className="w-full h-screen bg-white dark:bg-gray-900">
+    <div className="w-full  bg-white dark:bg-gray-900">
       <div className="" id="header">
         <ToogleTheme />
         <div className=" flex justify-center mt-10 relative ">
@@ -27,9 +27,10 @@ const Navigation = () => {
             alt="logo star wars"
           />
         </div>
-        {user ? (
+       
+         {user ? (
           <Link
-            className="border-gray-400 border-2 btn absolute top-2 right-0 mr-2 mt-2"
+            className="absolute top-2 right-0 px-2 py-1 rounded-lg mr-2 mt-2 bg-gray-400 text-gray-950 hover:opacity-80 "
             to={"/"}
             onClick={handleLogout}
           >
@@ -37,12 +38,13 @@ const Navigation = () => {
           </Link>
         ) : (
           <Link
-            className="border-gray-400 border-2 btn absolute top-2 right-0 mr-2 mt-2"
+            className="absolute top-2 right-0 px-2 py-1 rounded-lg mr-2 mt-2 bg-gray-400 text-gray-950 hover:opacity-80 "
             to={"/login"}
           >
             Login
           </Link>
         )}
+
       </div>
       <nav className='mt-5'>
         <ul className='flex justify-center  border-y-2 border-gray-400'>

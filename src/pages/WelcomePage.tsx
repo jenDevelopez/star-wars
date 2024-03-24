@@ -5,7 +5,7 @@ const WelcomePage = () => {
   const user = useStarsStore(state => state.user)
  
   return (
-    <div className=" w-full h-2/3 flex justify-center items-center ">
+    <div className=" w-full  h-[65vh] md:flex md:justify-center md:items-start">
       <div className=" mt-10 flex flex-col content-center items-center ">
         <h1 className="text-3xl text-center text-gray-400" > Hola {user ? user.email : 'Jedi'}
         </h1>
